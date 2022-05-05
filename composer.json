@@ -1,0 +1,17 @@
+{
+    "name": "weliton/estudos-clean-arch",
+    "autoload": {
+        "psr-4": {
+            "EstudosCleanArch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "weliton",
+            "email": "welingtonzsilva@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
