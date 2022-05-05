@@ -8,6 +8,11 @@ class Aluno
     private string $nome;
     private Email $email;
     private array $telefone;
+    // Named constructors
+    public static function comCpfNomeEmail(string $cpf,string $nome, string $email):Aluno
+    {
+        return new Aluno(new Cpf($cpf),$nome,new Email ($email));
+    }
 
     public function __construct(Cpf $cpf, string $nome, Email $email,)
     {
@@ -16,8 +21,11 @@ class Aluno
         $this->email =  $email;
     }
 
-    public function adicionarTelefone(string $ddd,string $numero):Telefone
+    public function adicionarTelefone(string $ddd,string $numero):self
     {
-       return $this->telefone[] = new Telefone($ddd,$numero);
+       $this->telefone[] = new Telefone($ddd,$numero);
+        return $this;
     }
 }
+
+$aluno = Aluno::comCpfNomeEmail('36529972803','weliton','weliton@weliton.com.br');
