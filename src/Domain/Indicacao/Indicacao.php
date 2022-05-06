@@ -3,7 +3,7 @@
     namespace EstudosCleanArch\Indiacao;
 
 use DateTimeImmutable;
-use EstudosCleanArch\Aluno\Aluno;
+use EstudosCleanArch\Domain\Aluno\Aluno;
 
 class Indicacao
 {
