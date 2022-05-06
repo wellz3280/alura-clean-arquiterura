@@ -31,4 +31,3 @@ class Aluno
     }
 }
 
-$aluno = Aluno::comCpfNomeEmail('36529972803','weliton','weliton@weliton.com.br');
