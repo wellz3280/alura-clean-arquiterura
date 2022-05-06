@@ -29,6 +29,26 @@ class Aluno
        $this->telefone[] = new Telefone($ddd,$numero);
         return $this;
     }
+
+    public function getCpf():Cpf
+    {
+        return $this->cpf;
+    }
+
+    public function getNome():string
+    {
+        return $this->nome;
+    }
+
+    public function getEmail():Email
+    {
+        return $this->email;
+    }
+
+    public function getTelefone():array
+    {
+        return $this->telefone;
+    }
 }
 
 $aluno = Aluno::comCpfNomeEmail('36529972803','weliton','weliton@weliton.com.br');
