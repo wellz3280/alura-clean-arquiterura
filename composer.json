@@ -1,8 +1,8 @@
 {
-    "name": "weliton/estudos-clean-arch",
+    "name": "weliton/alura-clean-arquiterura",
     "autoload": {
         "psr-4": {
-            "EstudosCleanArch\\": "src/"
+            "AluraCleanArquiterura\\": "src/"
         }
     },
     "authors": [
@@ -11,7 +11,5 @@
             "email": "welingtonzsilva@gmail.com"
         }
     ],
-    "require": {
-        "phpunit/phpunit": "^9.5"
-    }
+    "require": {}
 }
