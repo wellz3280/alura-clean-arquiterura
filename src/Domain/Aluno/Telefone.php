@@ -39,6 +39,15 @@ class Telefone
     {
         return "({$this->ddd}) {$this->numero}";
     }
-}
 
-echo $teste = new Telefone('11','76340280');
+    public function getDdd():string
+    {
+        return $this->ddd;
+    }
+
+
+    public function getNumero():string
+    {
+        return $this->numero;
+    }
+}
