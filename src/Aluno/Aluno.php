@@ -1,6 +1,9 @@
 <?php
     declare(strict_types=1);
-    namespace EstudosCleanArch;
+    namespace EstudosCleanArch\Aluno;
+
+use EstudosCleanArch\Cpf;
+use EstudosCleanArch\Email;
 
 class Aluno
 {

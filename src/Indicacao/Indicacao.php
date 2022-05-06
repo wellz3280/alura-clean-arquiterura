@@ -1,9 +1,9 @@
 <?php
     declare(strict_types=1);
-    namespace EstudosCleanArch;
+    namespace EstudosCleanArch\Indiacao;
 
 use DateTimeImmutable;
-use DateTimeInterface;
+use EstudosCleanArch\Aluno\Aluno;
 
 class Indicacao
 {
